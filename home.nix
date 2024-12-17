@@ -9,6 +9,7 @@
   home.packages = with pkgs; [
     lazygit
     mpv
+    sops
   ];
 
   # This value determines the Home Manager release that your
