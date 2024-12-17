@@ -7,6 +7,11 @@
     [ pkgs.vim
     ];
 
+  users.users.dot = {
+    isNormalUser = true;
+    extraGroups = [ "wheel" ];
+  };
+
   environment.darwinConfig = "$HOME/.config/nix-darwin/configuration.nix";
 
   # Necessary for using flakes on this system.
