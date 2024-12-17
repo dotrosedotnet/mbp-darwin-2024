@@ -8,8 +8,7 @@
     ];
 
   users.users.dot = {
-    isNormalUser = true;
-    extraGroups = [ "wheel" ];
+    home = /Users/dot;
   };
 
   environment.darwinConfig = "$HOME/.config/nix-darwin/configuration.nix";
